@@ -13,20 +13,18 @@ const initdb = async () =>
   });
 
 // TODO: Add logic to a method that accepts some content and adds it to the database
-export const putDb = async (content) => {
+export const putDb = async (body) => {
   console.log("Post to the database");
 
-  const contactDb = await openDB("contact", 1);
+  const JATEDb = await openDB("JATE", 1);
 
-  const tx = contactDb.transaction("contact", "readwrite");
+  const tx = JATEDb.transaction("JATE", "readwrite");
 
-  const store = tx.objectStore("contact");
+  const store = tx.objectStore("JATE");
 
   const request = store.add({
-    name: name,
-    home_phone: home,
-    cell_phone: cell,
-    email: email,
+  id:"1",
+  value: body
   });
 
   const result = await request;
@@ -40,11 +38,11 @@ export const putDb = async (content) => {
   export const getDb = async () => {
     console.log("GET from the database");
 
-    const contactDb = await openDB("contact", 1);
+    const JATEDb = await openDB("JATE", 1);
 
-    const tx = contactDb.transaction("contact", "readonly");
+    const tx = JATEDb.transaction("JATE", "readonly");
 
-    const store = tx.objectStore("contact");
+    const store = tx.objectStore("JATE");
 
     const request = store.getAll();
 
