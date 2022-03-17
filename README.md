@@ -16,6 +16,10 @@
 - Dependencies
 - Contributors
 - Contact me </br>
+## Features
+- Text editor with javascript formatting
+- PWA criteria (functions offline)
+- downloadable application
 
 ## User Story
 
