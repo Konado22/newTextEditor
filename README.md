@@ -38,6 +38,8 @@ This project is designed to provide a text editor to take notes with javascript 
 Link to Heroku deployed site: <a href="https://pure-island-75813.herokuapp.com/" target="_blank">JATE TEXT EDITOR</a> </br>
 Link to Github Repo: <a href="https://github.com/Konado22/newTextEditor" target= "_blank"> GITHUB REPO</a>
 
+## Installation
+This application is deployed live at https://pure-island-75813.herokuapp.com/ and no installation is needed other than downloading the application from the heroku link
 ## Dependencies
 
 to acquire needed dependencies please run ""npm i"" or ""npm install""
