@@ -17,6 +17,14 @@
 - Contributors
 - Contact me </br>
 
+## User Story
+
+```md
+AS A developer
+I WANT to create notes or code snippets with or without an internet connection
+SO THAT I can reliably retrieve them for later use
+```
+
 ## Description
 
 This project is designed to provide a text editor to take notes with javascript coloring. you then can download the application and through local storage and PWA usage can access the information you previously had up as well as be accessible without internet connection
